@@ -1,5 +1,55 @@
-/* On OSX, place this at */
-/* ~/Library/Application Support/Flowdock/userstyle.css */
+.fdplus-notifications-tabs {
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+
+.fdplus-tab-content-wrapper {
+  float: right;
+  width: 75%;
+}
+
+.fdplus-tab-content {
+  padding: 15px;
+  display: none;
+}
+
+.fdplus-tab-content label {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.fdplus-tab-content h4 {
+  font-weight: normal;
+  font-size: 20px;
+  margin: 0;
+}
+
+.fdplus-tabs {
+  float: left;
+  width: 25%;
+  margin-left: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fdplus-tabs li {
+  background: #ddd;
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  margin: 0 !important;
+  border-top: none;
+}
+
+.fdplus-tabs li.active {
+  background: white;
+  border-right: 1px solid #fff;
+}
+
+.fdplus-tabs li a {
+  color: #333;
+}
+
+/* @TODO: MAKE THIS CSS OVERRIDEABLE AND MOVE IT OUT OF THIS FILE */
 
 body {
     font-family: Avenir, Arial, Helvetica, sans-serif;

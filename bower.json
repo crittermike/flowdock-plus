@@ -1,6 +1,9 @@
 {
   "name": "flowdock-plus",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "whenlive": "~3.0.0",
+    "jquery": "~2.1.1"
+  },
   "devDependencies": {}
 }
