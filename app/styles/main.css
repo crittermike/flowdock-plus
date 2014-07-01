@@ -1,0 +1,138 @@
+/* On OSX, place this at */
+/* ~/Library/Application Support/Flowdock/userstyle.css */
+
+body {
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+}
+
+.chat-message .content, .action-message .content, .message-author, .comment-message .content, .status-message .content, .line-message .content {
+    font-size: 15px;
+    line-height: 1.7em;
+}
+
+.icon-tag {
+    line-height: 25px;
+}
+
+#chat {
+  float: left !important;
+  border-right: 1px solid silver !important;
+  border-left: none !important;
+}
+
+.inbox-panel {
+  float: right !important;
+}
+
+.compact #chat li[class*=message] .tag, .tag {
+    color: #0069c5 !important;
+    background: none !important;
+    border: none !important;
+    height: auto;
+    margin-right: 0 !important;
+    padding: 0 !important;
+    top: 0 !important;
+}
+
+.chat-message-list .mini-icon {
+    line-height: 2.35em;
+}
+
+.action-message .message-author, .action-message .content {
+    color: #666 !important;
+}
+
+.action-message {
+    background-color: #eee !important;
+    border-color: #ddd !important;
+}
+
+div.flow {
+   padding-left: 200px !important; 
+   width: 100% !important;
+   padding-top: 0 !important;
+   border-left: 1px solid #e5e5e5 !important;
+}
+
+nav#tab-bar.desktop {
+   width: 200px !important;
+   height: 100% !important;
+   padding: 0px !important;
+   overflow-y: scroll !important;
+}
+
+nav#tab-bar.desktop ul#tab-list {
+   width: 200px !important;
+   padding: 0 0 100px 0 !important;
+   margin: 0 !important;
+   margin-top: 5rem !important;
+   background: #262626 !important;
+   float: none !important;
+}
+
+nav#tab-bar.desktop #tab-list.desktop li {
+   display: block !important;
+   background: #262626 !important;
+   width: 100% !important;
+   max-width: 100% !important;
+   border-left: 7px solid transparent;
+}
+
+nav#tab-bar.desktop #tab-list.desktop li.current {
+   background: #fff !important;
+   color: #292929 !important;
+   border-left: 7px solid #f88f65;
+}
+
+nav#tab-bar.desktop #tab-list.desktop li.current div.tab-caret-wrapper::before {
+  border-style: none !important;
+}
+
+nav#tab-bar.desktop #tab-list.desktop li.current div.tab-fade-wrapper::after {
+  background-image: none !important;
+}
+nav#tab-bar.desktop #tab-list.desktop li.current div.tab-name {
+   color: #292929 !important;
+}
+
+a#more {
+  position: fixed !important;
+  bottom: 0px !important; 
+  /*padding-top: 5px !important;*/
+  padding-left: 52px !important;
+  width: 200px !important;
+  left: 0px !important;
+  background: #464646 !important;
+}
+
+a#more div.tab-fade-wrapper::after {
+    background-image: none !important;
+}
+
+a#more span.icon-plus-3:after {
+  content: " Add flow";
+}
+
+div#user-menu-toggle.dropdown {
+  position: fixed !important;
+  top: 0px !important;
+  left: 0px !important;
+  width: 200px !important;
+}
+
+nav#tab-bar.desktop #tab-list.desktop li#overflow-scroller {
+  position: fixed !important;
+  bottom: 40px !important;
+  left: 0 !important;
+  width: 200px !important;
+  height: 100px !important;
+  text-indent: -9999px !important;
+  z-index: 99 !important;
+  background-color: transparent !important;
+  background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(38,38,38,0)), to(rgba(38,38,38,1))) !important;
+  pointer-events:none !important;
+}
+
+.mentions-dropdown-wrapper {
+  padding-top: 0 !important;
+}
